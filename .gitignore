@@ -10,7 +10,7 @@ lerna-debug.log*
 # Security
 .env
 
-# local build
+# local builds
 node_modules
 dist
 dist-ssr
