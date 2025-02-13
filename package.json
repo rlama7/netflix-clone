@@ -10,7 +10,8 @@
     "format": "prettier --write .",
     "clean": "rm -rf dist node_modules & yarn install",
     "preview": "vite preview",
-    "test": "jest --watch",
+    "test": "jest --ci --runInBand --all",
+    "test:watch": "jest --watch",
     "test:ci": "jest --ci",
     "test:ui": "jest --config=jest.config.js",
     "test:backend": "jest --config=jest.node.config.js"
